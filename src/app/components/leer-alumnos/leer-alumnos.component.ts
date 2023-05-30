@@ -11,17 +11,16 @@ export class LeerAlumnosComponent implements OnInit {
   constructor(private alumnoService: AlumnoService) {}
 
   listaAlumnos: Alumno[] = [
-    new Alumno('0924004914', 'Jose', 'Navas', 'Programacion Orientada a Objetos', 10, 9),
-    new Alumno('741852963', 'Andrés', 'López', 'Desarrollo Web I', 7.9, 8.1),
-    new Alumno('369741852', 'Gabriela', 'Pérez', 'Base de Datos I', 9.2, 9.4),
-    new Alumno('852963741', 'Roberto', 'Gómez', 'Experiencia de Usuario', 8.6, 3),
-    new Alumno('963852741', 'Isabel', 'Hernández', 'Programacion Orientada a Eventos', 6.8, 6.9),
-    new Alumno('456123789', 'Fernando', 'García', 'Programacion Orientada a Objetos', 9.8, 9.7),
-    new Alumno('987369258', 'Valentina', 'Martínez', 'Base de Datos', 8.3, 8.2),
-    new Alumno('369852147', 'Lucía', 'Sánchez', 'Calidad de Software', 7.5, 7.1),
-    new Alumno('123987456', 'Eduardo', 'Torres', 'Base de Datos II', 8.7, 5),
-    new Alumno('987654321', 'Julia', 'Rodríguez', 'Desarrollo Web II', 9.5, 8),
-    new Alumno('741963852', 'Mariano', 'López', 'Ingenieria de Requisitos', 7.6, 7),
+    new Alumno('123456789', 'Juan', 'Pérez', 'Matemáticas', 8.5, 9.2),
+    new Alumno('987654321', 'María', 'Gómez', 'Historia', 7.8, 6.9),
+    new Alumno('456789123', 'Carlos', 'López', 'Ciencias', 6.2, 7.5),
+    new Alumno('321654987', 'Laura', 'Torres', 'Literatura', 5, 8.7),
+    new Alumno('789456123', 'Pedro', 'Hernández', 'Física', 7.5, 6.8),
+    new Alumno('654321987', 'Ana', 'García', 'Química', 8.9, 9.3),
+    new Alumno('147258369', 'Luis', 'Sánchez', 'Biología', 6.8, 7.2),
+    new Alumno('369258147', 'Sara', 'Martínez', 'Inglés', 9.5, 9.8),
+    new Alumno('258369147', 'Diego', 'Rodríguez', 'Geografía', 10, 7.6),
+    new Alumno('852741963', 'Carolina', 'Ríos', 'Arte', 7.4, 5),
   ];
   listaFiltrada: Alumno[] = [];
   cantidadTodos: number = 0;
