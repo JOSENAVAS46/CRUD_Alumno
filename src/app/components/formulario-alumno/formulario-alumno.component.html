@@ -1,6 +1,6 @@
 <div class="container">
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-6">
       <form (ngSubmit)="submitForm()" class="my-form">
         <div class="form-group">
           <label for="cedula">Cédula:</label>
@@ -11,25 +11,20 @@
           <label for="nombre">Nombre:</label>
           <input type="text" id="nombre" [(ngModel)]="nombre" name="nombre" class="form-control" required>
         </div>
-      </form>
-    </div>
 
-    <div class="col-md-4">
-      <form (ngSubmit)="submitForm()" class="my-form">
         <div class="form-group">
           <label for="apellido">Apellido:</label>
           <input type="text" id="apellido" [(ngModel)]="apellido" name="apellido" class="form-control" required>
         </div>
-
+      </form>
+    </div>
+    <div class="col-md-6">
+      <form (ngSubmit)="submitForm()" class="my-form">
         <div class="form-group">
           <label for="asignatura">Asignatura:</label>
           <input type="text" id="asignatura" [(ngModel)]="asignatura" name="asignatura" class="form-control" required>
         </div>
-      </form>
-    </div>
 
-    <div class="col-md-4">
-      <form (ngSubmit)="submitForm()" class="my-form">
         <div class="form-group">
           <label for="nota1">Nota 1:</label>
           <input type="number" id="nota1" [(ngModel)]="nota1" name="nota1" class="form-control" required>
